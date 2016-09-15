@@ -4,7 +4,7 @@
 [ext_resource path="res://scenes/carta/classic_13x4x560x780.tex" type="Texture" id=2]
 [ext_resource path="res://scenes/carta/Card-Back-06.tex" type="Texture" id=3]
 
-[node name="carta" type="Node"]
+[node name="carta" type="Node2D"]
 
 script/script = ExtResource( 1 )
 valore = 2
@@ -15,6 +15,7 @@ mostra_fronte = true
 [node name="fronte" type="Sprite" parent="."]
 
 texture = ExtResource( 2 )
+centered = false
 vframes = 4
 hframes = 13
 frame = 14
@@ -23,5 +24,6 @@ frame = 14
 
 visibility/visible = false
 texture = ExtResource( 3 )
+centered = false
 
 
