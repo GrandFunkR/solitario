@@ -9,6 +9,8 @@ var is_ready = false
 func _ready():
 	is_ready = true
 	aggiorna()
+	set_pos(Vector2(1.5,1.5))
+	print(get_pos()) #print (1,1) in output
 
 func set_mostra_fronte(new_mostra_fronte):
 	mostra_fronte = new_mostra_fronte

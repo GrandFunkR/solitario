@@ -4,8 +4,16 @@
 [ext_resource path="res://scenes/carta/classic_13x4x560x780.tex" type="Texture" id=2]
 [ext_resource path="res://scenes/carta/Card-Back-06.tex" type="Texture" id=3]
 
-[node name="carta" type="Node2D"]
+[node name="carta" type="Control"]
 
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 282.0
+margin/bottom = 390.0
 script/script = ExtResource( 1 )
 valore = 2
 seme = 1
